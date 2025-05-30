@@ -13,12 +13,12 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.headerText}>Login App (Apellido, Apellido)</Text>
+        <Text style={styles.headerText}>Login App (Socha, Kacanas)</Text>
       </View>
 
       <View style={styles.body}>
         <Image
-          source={{ uri: 'https://upload.wikimedia.org/wikipedia/commons/6/69/Coca-Cola_logo.svg' }}
+          source={{ uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/1200px-Flag_of_Israel.svg.png' }}
           style={styles.logo}
           resizeMode="contain"
         />
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#F0F0F0',
   },
   header: {
-    backgroundColor: '#7D4CDB',
+    backgroundColor: '#B2FFFF',
     padding: 20,
     alignItems: 'center',
   },
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
   input: {
     width: '100%',
     height: 50,
-    borderColor: '#7D4CDB',
+    borderColor: '#B2FFFF',
     borderWidth: 1,
     borderRadius: 5,
     marginBottom: 15,
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
   },
   button: {
-    backgroundColor: '#7D4CDB',
+    backgroundColor: '#B2FFFF',
     paddingVertical: 15,
     paddingHorizontal: 30,
     borderRadius: 5,
